@@ -13,9 +13,9 @@ Please update your installation to the latest CodeIgniter 3.x version available
 Note::
 
     Application develop using Codeigniter Frameworke.
-    Create database (used signal database name).
-    Import database file signal.sql.
-    Change Database configuration in signal.php.
-    Did Serverside basic validation.
+    Create database (Database Name: signal Table Name signaldata). 
+    Change Database configuration in application/config/database.php
+    Did serverside basic validation. (Implemented inn Controller Action)
     Default entry is added in the table.
+    Data update implemented based on event in textfield. (It will show error message in Red)
 
